@@ -28,7 +28,7 @@ body {
 }
 @font-face {
     font-family: 'NeonText';
-    src: url('/fonts/TextMeOne-Regular.ttf') format('truetype');
+    src: url('/22024709portfolio/fonts//TextMeOne-Regular.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
@@ -40,7 +40,7 @@ body {
 
 @font-face {
     font-family: 'ImpactText';
-    src: url('//22024709portfolio/fonts/321impact.ttf') format('truetype');
+    src: url('/22024709portfolio/fonts/321impact.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
