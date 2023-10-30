@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2023, 11:14:45 AM
+    Author     : jing wei
+*/
+.censored-text {
+    font-size: 100px; /* Set your desired font size */
+    color: transparent; /* Make the text transparent */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Add a shadow to make blurred text visible */
+    letter-spacing: 10px; /* Increase letter spacing to make the text appear as blocks */
+    filter: blur(3px); /* Apply blur effect to the text */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('/PDStatic/images/paper_bg_2.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+/*    background-color: #6371CB;*/
+}
+@font-face {
+    font-family: 'NeonText';
+    src: url('/PDStatic/fonts/TextMeOne-Regular.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+
+@font-face {
+    font-family: 'InkText';
+    src: url('/PDStatic/fonts/DK Downward Fall.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+
+@font-face {
+    font-family: 'ImpactText';
+    src: url('/PDStatic/fonts/321impact.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+
+@font-face {
+    font-family: 'Stalker1Text';
+    src: url('/PDStatic/fonts/stalker1.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+
+@font-face {
+    font-family: 'Stalker2Text';
+    src: url('/PDStatic/fonts/stalker2.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+.NeonText_white {
+    font-family: 'NeonText', sans-serif;
+     /* Set your desired font size */
+    color: #FFFFFF; /* Set your desired text color */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Set the glow effect (adjust the values as needed) */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    -webkit-text-stroke: 1px #FFFFFF; /* Set the outline width and color */
+    text-stroke: 1px #FFFFFF; /* Additional text-stroke property for non-WebKit browsers */
+}
+.InkText {
+    font-family: 'InkText', sans-serif;
+    
+}
+.ImpactText{
+    font-family: 'ImpactText', sans-serif;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+.Stalker1Text{
+    font-family: 'Stalker1Text', sans-serif;
+}
+.Stalker2Text{
+    font-family: 'Stalker2Text', sans-serif;
+}
+
+.ImpactText,
+.InkText {
+    display: inline;
+}
+.glow-text {
+
+}
+.NeonSign {
+    font-size: 36px; /* Set your desired font size */
+
+}
+.bright {
+    filter: brightness(130%); /* Increase brightness by 50% */
+}
+.content-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: center;
+}
+
+.text-container {
+    margin-right: 20px; /* Adjust the spacing between text and image */
+}
+
+.image-container img {
+    display: block;
+}
+
+
+
+
+
