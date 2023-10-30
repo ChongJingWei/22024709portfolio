@@ -20,7 +20,7 @@ html, body {
     padding: 0;
 }
 body {
-    background: url('images/paper_bg_2.png') no-repeat center center;
+    background: url('ChongJingWei/22024709portfolio/images/paper_bg_2.png') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -28,31 +28,31 @@ body {
 }
 @font-face {
     font-family: 'NeonText';
-    src: url('fonts/TextMeOne-Regular.ttf') format('truetype');
+    src: url('/PDStatic/fonts/TextMeOne-Regular.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'InkText';
-    src: url('fonts/DK Downward Fall.ttf') format('truetype');
+    src: url('/PDStatic/fonts/DK Downward Fall.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'ImpactText';
-    src: url('fonts/321impact.ttf') format('truetype');
+    src: url('/PDStatic/fonts/321impact.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'Stalker1Text';
-    src: url('fonts/stalker1.ttf') format('truetype');
+    src: url('/PDStatic/fonts/stalker1.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'Stalker2Text';
-    src: url('fonts/stalker2.ttf') format('truetype');
+    src: url('/PDStatic/fonts/stalker2.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 .NeonText_white {
@@ -110,5 +110,3 @@ body {
 .image-container img {
     display: block;
 }
-
-/*dd*/
