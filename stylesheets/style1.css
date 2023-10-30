@@ -28,7 +28,8 @@ body {
 }
 @font-face {
     font-family: 'NeonText';
-    src: url('/22024709portfolio/fonts//TextMeOne-Regular.ttf') format('truetype');
+    src: url('/22024709portfolio/fonts//TextMeOne-Regular.ttf') format('truetype'),
+        url('/22024709portfolio/fonts/TextMeOne-Regular.woff') format('woff');
     /* Add additional font formats if necessary */
 }
 
