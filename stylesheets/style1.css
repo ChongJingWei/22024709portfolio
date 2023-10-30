@@ -28,31 +28,31 @@ body {
 }
 @font-face {
     font-family: 'NeonText';
-    src: url('/PDStatic/fonts/TextMeOne-Regular.ttf') format('truetype');
+    src: url('/22024709portfolio/fonts/TextMeOne-Regular.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'InkText';
-    src: url('/PDStatic/fonts/DK Downward Fall.ttf') format('truetype');
+    src: url('/22024709portfolio/fonts/DK Downward Fall.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'ImpactText';
-    src: url('/PDStatic/fonts/321impact.ttf') format('truetype');
+    src: url('//22024709portfolio/fonts/321impact.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'Stalker1Text';
-    src: url('/PDStatic/fonts/stalker1.ttf') format('truetype');
+    src: url('/22024709portfolio/fonts/stalker1.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'Stalker2Text';
-    src: url('/PDStatic/fonts/stalker2.ttf') format('truetype');
+    src: url('/22024709portfolio/fonts/stalker2.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 .NeonText_white {
