@@ -56,6 +56,17 @@ body {
     src: url('/22024709portfolio/fonts/stalker2.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
+
+@font-face {
+    font-family: 'Omori1Text';
+    src: url('/22024709portfolio/fonts/OMORI_GAME1.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+@font-face {
+    font-family: 'Omori2Text';
+    src: url('/22024709portfolio/fonts/OMORI_GAME2.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
 .NeonText_white {
     font-family: 'NeonText', sans-serif;
      /* Set your desired font size */
