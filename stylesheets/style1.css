@@ -26,27 +26,6 @@ body {
     min-height: 100vh;
 /*    background-color: #6371CB;*/
 }
-
-nav {
-        background: url('/22024709portfolio/images/navbar/rust_navbar_2.png') no-repeat center center;
-        background-size: cover;
-    }
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
-.overlay-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.image-container:hover .overlay-image {
-    opacity: 1;
-}
 @font-face {
     font-family: 'NeonText';
     src: url('/22024709portfolio/fonts//TextMeOne-Regular.ttf') format('truetype'),
