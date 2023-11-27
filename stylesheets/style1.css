@@ -82,7 +82,7 @@ body {
 }
 .ImpactText{
     font-family: 'ImpactText', sans-serif;
-    colour: #EDEDED;
+    color: #EDEDED;
 }
 
 .underline-text {
@@ -90,11 +90,11 @@ body {
 }
 .Stalker1Text{
     font-family: 'Stalker1Text', sans-serif;
-    colour: #EDEDED;
+    color: #EDEDED;
 }
 .Stalker2Text{
     font-family: 'Stalker2Text', sans-serif;
-    colour: #EDEDED;
+    color: #EDEDED;
 }
 
 .ImpactText,
