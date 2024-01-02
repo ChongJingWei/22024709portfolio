@@ -20,7 +20,7 @@ html, body {
     padding: 0;
 }
 body {
-    background: url('/22024709portfolio/images/paper_bg_3.png') no-repeat center center;
+    background: url('images/paper_bg_3.png') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -28,43 +28,43 @@ body {
 }
 @font-face {
     font-family: 'NeonText';
-    src: url('/22024709portfolio/fonts//TextMeOne-Regular.ttf') format('truetype'),
-        url('/22024709portfolio/fonts/TextMeOne-Regular.woff') format('woff');
+    src: url('fonts//TextMeOne-Regular.ttf') format('truetype'),
+        url('fonts/TextMeOne-Regular.woff') format('woff');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'InkText';
-    src: url('/22024709portfolio/fonts/DK Downward Fall.ttf') format('truetype');
+    src: url('fonts/DK Downward Fall.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'ImpactText';
-    src: url('/22024709portfolio/fonts/321impact.ttf') format('truetype');
+    src: url('fonts/321impact.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'Stalker1Text';
-    src: url('/22024709portfolio/fonts/stalker1.ttf') format('truetype');
+    src: url('fonts/stalker1.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'Stalker2Text';
-    src: url('/22024709portfolio/fonts/stalker2.ttf') format('truetype');
+    src: url('fonts/stalker2.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 
 @font-face {
     font-family: 'Omori1Text';
-    src: url('/22024709portfolio/fonts/OMORI_GAME1.ttf') format('truetype');
+    src: url('fonts/OMORI_GAME1.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 @font-face {
     font-family: 'Omori2Text';
-    src: url('/22024709portfolio/fonts/OMORI_GAME2.ttf') format('truetype');
+    src: url('fonts/OMORI_GAME2.ttf') format('truetype');
     /* Add additional font formats if necessary */
 }
 .NeonText_white {
