@@ -7,6 +7,146 @@ and open the template in the editor.
     Created on : Oct 21, 2023, 11:14:45 AM
     Author     : jing wei
 */
+     nav {
+        background: url('images/navbar/rust_navbar.png') no-repeat center center;
+        background-size: cover;
+    }
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay-image {
+    opacity: 1;
+}
+
+@media (max-width: 1080px) {
+    /* Navbar styles */
+    .navbar-nav {
+      flex-direction: column !important; /* Ensure this takes precedence */
+      text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+      width: 50%;
+    }
+
+    .navbar-toggler {
+      display: block;
+    }
+
+    /* Content styles */
+    .content-container {
+      text-align: center;
+    }
+
+    .text-container {
+      margin: 10px;
+      font-size: 40px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .text-container {
+        font-size: 30px;
+      }
+    }
+
+    /* Navbar Dropdown styles */
+    .navbar-nav.collapsibleNavbar {
+      background: url('images/navbar/rust_navbar.png') no-repeat center center;
+      background-size: cover;
+      padding: 10px;
+      position: absolute;
+      top: 60px; /* Adjust as needed based on your design */
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    .navbar-nav.collapsibleNavbar.show .nav-item {
+      margin-bottom: 10px;
+    }
+    
+.content-container {
+   text-align: center;
+}
+
+.responsive-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+@media (max-width: 1080px) {
+   .responsive-content {
+      flex-direction: column;
+   }
+}
+
+.image-container img {
+   max-width: 100%;
+   height: auto;
+}
+
+
+
+@media (max-width: 768px) {
+    .description-text {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        line-height: 0.2; /* Adjust line height for smaller screens */
+    }
+
+    .responsive-content {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+}
+
+@media (max-width: 1080px) {
+    /* Reduce the font size of the navigation items */
+    .navbar-nav .nav-item {
+        width: 100%; /* Adjust the width as needed */
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+
+    /* Optionally, adjust other styling properties as needed */
+    .navbar-nav .nav-link {
+        padding: 8px 16px; /* Adjust padding if necessary */
+    }
+}
+}
+.title{
+    font-size: 4vw;
+}
+
+
+.subtitle{
+    font-size: 3vw;
+}
+
+.description-text {
+    text-align: left;
+    font-size: 3vw; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+    color: #EE5454;
+    margin: 0;
+}
+
 .censored-text {
     font-size: 100px; /* Set your desired font size */
     color: transparent; /* Make the text transparent */
@@ -90,11 +230,11 @@ body {
 }
 .Stalker1Text{
     font-family: 'Stalker1Text', sans-serif;
-    color: #DBDBDB !important;
+
 }
 .Stalker2Text{
     font-family: 'Stalker2Text', sans-serif;
-    color: #DBDBDB !important;
+
 }
 
 .ImpactText,
