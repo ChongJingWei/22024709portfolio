@@ -108,7 +108,7 @@ and open the template in the editor.
 
 @media (max-width: 768px) {
     .description-text {
-        font-size: 30px; /* Adjust font size for smaller screens */
+        font-size: 2vw; /* Adjust font size for smaller screens */
         line-height: 0.2; /* Adjust line height for smaller screens */
     }
 
@@ -128,6 +128,10 @@ and open the template in the editor.
     .navbar-nav .nav-link {
         padding: 8px 16px; /* Adjust padding if necessary */
     }
+    
+    .description-text{
+        font-size:4vw;
+    }
 }
 }
 .title{
@@ -141,7 +145,7 @@ and open the template in the editor.
 
 .description-text {
     text-align: left;
-    font-size: 3vw; /* Adjust font size as needed */
+    font-size: 2vw; /* Adjust font size as needed */
     line-height: 1.5; /* Adjust line height as needed */
     color: #EE5454;
     margin: 0;
@@ -264,4 +268,15 @@ body {
 
 .image-container img {
     display: block;
+}
+.footer{
+ font-size:20px;
+}
+
+@media (max-width: 1080px) {
+    /* Adjust padding and margins here */
+    .footer {
+        font-size: 40px;
+        padding: 20px;
+    }
 }
