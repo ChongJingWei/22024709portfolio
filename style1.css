@@ -28,6 +28,14 @@ and open the template in the editor.
     opacity: 1;
 }
 
+.welcome{
+    font-size: 4vw;
+}
+
+@media (max-width: 1080px) {
+     font-size: 5vw;
+}
+
 @media (max-width: 1080px) {
     /* Navbar styles */
     .navbar-nav {
